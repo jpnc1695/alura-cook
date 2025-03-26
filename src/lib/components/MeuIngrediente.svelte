@@ -12,7 +12,7 @@
 
 </script>
 
-<div class="meu-ingrediente-container" transition:fade={{duration:320}}>
+<div class="meu-ingrediente-container" transition:fade={{duration:220}}>
 
   <Tag ativa={true}>
     <button 
