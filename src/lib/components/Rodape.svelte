@@ -4,7 +4,7 @@
         alt="ícone marca registrada"
         class="registered"
     />
-        Jpnc1695 - 2025
+       <a href="https://github.com/jpnc1695" class="link"> JPNC1695 - 2025</a>
 </footer>
 
 <style>
@@ -21,5 +21,10 @@
 
     .registered {
         margin-right: 6px;
+    }
+
+    .link{
+        text-decoration: none;
+        color: aliceblue;
     }
 </style>

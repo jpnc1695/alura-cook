@@ -44,7 +44,7 @@
     },
     {
         "nome": "Frutas frescas",
-        "ingredientes": ["Banana", "Maçã", "Uva", "Pera", "Limão", "Morango", "Ameixa", "Framboesa", "Acabaxi"],
+        "ingredientes": ["Banana", "Maçã", "Uva", "Pera", "Limão", "Morango", "Ameixa", "Framboesa", "Abacaxi"],
         "imagem": "frutas_frescas.png"
     },
     {

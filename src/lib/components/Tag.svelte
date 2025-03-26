@@ -1,16 +1,11 @@
 <script lang="ts">
   export var ativa:boolean = false;
   export let tamanho: "md" | "lg" = "md";
-  // export var selecionavel = false;
+  export let desabilitada = false;
 
-  // function Clicado() {
-  //   if (selecionavel) {
-  //     ativa = !ativa;
-  //   }
-  // }
 </script>
 
-<div class="tag {tamanho}" class:ativa>
+<div class="tag {tamanho}" class:ativa class:desabilitada>
   <slot></slot>
 </div>
 
@@ -26,6 +21,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: 0.3s;
   }
 
   .ativa {
@@ -36,5 +33,10 @@
   .lg {
         font-size: 1.125rem;
         padding: 1rem 1.5rem;
+    }
+
+    .desabilitada {
+      opacity: 0.8;
+      cursor: default;
     }
 </style>
