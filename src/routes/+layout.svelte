@@ -1,4 +1,6 @@
 <script>
+  import "../app.css";
+
   import Cabecalho from "$components/Cabecalho.svelte";
   import MinhaLista from "$components/MinhaLista.svelte";
   import Rodape from "$components/Rodape.svelte";
